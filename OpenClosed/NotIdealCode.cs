@@ -13,9 +13,9 @@ namespace OpenClosed_NotIdealCode
             //Garanti garanti = new();
             //garanti.HesapNo = "...";
             //garanti.ParaGonder(tutar);
-            Halkban halkban = new();
-            halkban.GonderilecekHesapNo("123");
-            halkban.Gonder(tutar);
+            Halkbank halkbank = new();
+            halkbank.GonderilecekHesapNo("123");
+            halkbank.Gonder(tutar);
         }
     }
 
@@ -27,7 +27,7 @@ namespace OpenClosed_NotIdealCode
             //...
         }
     }
-    class Halkban
+    class Halkbank
     {
         string _hesapNo;
         public void GonderilecekHesapNo(string hesapNo)
