@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Single_Responsibility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Single_Responsibility
+namespace Single_Responsibility_NotIdealCode
 {
     class Database
     {
